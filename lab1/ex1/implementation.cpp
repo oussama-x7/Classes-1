@@ -27,7 +27,6 @@ int Rectangel::perimeter(int width, int length) const
 }
 void Rectangel::GetInfo() const
 {
-
     cout << "the Width   " << "is : " << GetWidth() << endl;
     cout << "the Length " << "is : " << GetLength() << endl;
     cout << "the Area   " << "is : " << Area(GetWidth(), GetLength()) << endl;
